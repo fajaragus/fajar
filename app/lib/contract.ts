@@ -7,11 +7,11 @@ import {
   Network,
   Provider,
 } from 'aptos';
-import { User } from './types';
+import { User } from 'fajaragus';
 
 const MODULE_ADDRESS =
   process.env.MODULE_ADDRESS ||
-  '0xe9552a8394a40ac22f536fbce1549634ea3e6220d2c29177a7b629f5f6e2c233';
+  '0x4b920b958fcb737625c7b244e2f78b8d99930a796ac644f5dd75494caed5cd1b';
 const MODULE_NAME = process.env.MODULE_NAME || 'twitter_clone';
 
 const client = new AptosClient('https://fullnode.testnet.aptoslabs.com');
